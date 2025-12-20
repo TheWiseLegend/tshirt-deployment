@@ -1,0 +1,11 @@
+---
+- name: Deploy T-Shirt Customizer Application
+  hosts: all
+  gather_facts: no
+  tasks:
+      - name: Display deployment info
+        debug:
+
+      - name: Include deployment role
+        include_role:
+            name: ansible-role-tshirt

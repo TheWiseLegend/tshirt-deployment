@@ -1,0 +1,24 @@
+# App Settings
+app_name: 'tshirt-customizer'
+app_repo: 'https://github.com/TheWiseLegend/3DModelAITshirtCustomizer.git'
+app_branch: 'main'
+
+# Build Settings
+node_version: '22'
+build_dir: 'client'
+dist_folder: 'client/dist'
+
+# Deployemnt Settings - SFTP Credentials to Hostinger
+deployment_method: 'sftp'
+sftp_username: 'u218069050'
+sftp_password: '25717204Ak_'
+sftp_port: 65002
+sftp_host: "ftp.amribrahim.tech"
+deploy_path: '/home/u218069050/domains/amribrahim.tech/public_html/tshirtcustomizer'
+
+# Workspace (where Ansible will work on your Mac)
+workspace_path: '/tmp/ansible-tshirt-build'
+
+
+
+
