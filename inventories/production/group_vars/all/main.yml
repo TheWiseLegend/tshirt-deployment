@@ -6,7 +6,7 @@ app_branch: 'main'
 # Build Settings
 node_version: '22'
 build_dir: 'client'
-dist_folder: 'client/dist'
+dist_folder: '/client/dist'
 
 # Deployemnt Settings - SFTP Credentials to Hostinger
 deployment_method: 'sftp'
@@ -17,7 +17,7 @@ sftp_host: "ftp.amribrahim.tech"
 deploy_path: '/home/u218069050/domains/amribrahim.tech/public_html/tshirtcustomizer'
 
 # Workspace (where Ansible will work on your Mac)
-workspace_path: '/tmp/ansible-tshirt-build'
+workspace_path: '/tmp/ansible-tshirt-build/'
 
 
 

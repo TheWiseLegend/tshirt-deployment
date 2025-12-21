@@ -1,11 +1,12 @@
 ---
 - name: Deploy T-Shirt Customizer Application
   hosts: all
-  gather_facts: no
+  gather_facts: false
   tasks:
       - name: Display deployment info
         debug:
+            msg: "Deploying {{ app_name }} to {{ deployment_method }}"
 
       - name: Include deployment role
-        include_role:
+        ansible.builtin.include_role:
             name: ansible-role-tshirt
